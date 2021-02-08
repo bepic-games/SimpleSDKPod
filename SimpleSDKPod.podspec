@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xxx/SimpleSDKPod'
+  s.homepage         = 'https://github.com/bepic-games/SimpleSDKPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xxx' => 'xxx@x.com' }
-  s.source           = { :git => 'https://github.com/xxx/SimpleSDKPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bepic-games/SimpleSDKPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SimpleSDKPod/Classes/**/*'
+  s.vendored_frameworks = "SimpleSDKPod/Frameworks/SimpleSDK.framework"
   
   # s.resource_bundles = {
   #   'SimpleSDKPod' => ['SimpleSDKPod/Assets/*.png']

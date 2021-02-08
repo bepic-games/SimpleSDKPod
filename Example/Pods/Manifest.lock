@@ -1,0 +1,16 @@
+PODS:
+  - SimpleSDKPod (0.1.0)
+
+DEPENDENCIES:
+  - SimpleSDKPod (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleSDKPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleSDKPod: af31073d06813108e955e0cd7a4ae6ed3adf34c8
+
+PODFILE CHECKSUM: eb9e501297b13eedafcf13b0f0bd10bbbb6dc689
+
+COCOAPODS: 1.10.0

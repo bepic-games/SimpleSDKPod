@@ -1,0 +1,22 @@
+{
+  "name": "SimpleSDKPod",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleSDKPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xxx/SimpleSDKPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xxx": "xxx@x.com"
+  },
+  "source": {
+    "git": "https://github.com/xxx/SimpleSDKPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SimpleSDKPod/Classes/**/*"
+}
